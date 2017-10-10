@@ -55,7 +55,7 @@ export default {
 option : {
     backgroundColor: '#49586e',
     title: {
-        text: '注册资金',
+        text: '项目分类',
         x: '20%',
         y: 'center',
         textStyle: {

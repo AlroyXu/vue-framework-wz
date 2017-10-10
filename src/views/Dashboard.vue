@@ -4,10 +4,7 @@
         <Row>
 
             <Col :sm="24" :md="8">
-            <h3>👍For project and finance👍</h3>
-            <!-- <h5>
-                <a href="https://github.com/herozhou/vue-framework-wz" target="_blank">github地址（喜欢就点个start呗）</a>
-            </h5> -->
+                <h3>SAF Management</h3>           
             </Col>
             <!--收入统计  -->
             <div class="state-info">
@@ -53,7 +50,7 @@
                             230
                         </div>
                         <div class="title">
-                            New Order
+                            New item
                         </div>
                     </div>
                 </div>
@@ -69,7 +66,7 @@
                             3490
                         </div>
                         <div class="title">
-                            Copy Sold
+                            Done items
                         </div>
                     </div>
 
@@ -107,7 +104,7 @@
                             390
                         </div>
                         <div class="title">
-                            Unique Visitors
+                            Total Cost
                         </div>
                     </div>
                 </div>
@@ -118,7 +115,7 @@
 
             <Col :xs="24" :sm="12" :md="12" :lg="12">
 
-            <dash-chart-visitor></dash-chart-visitor>
+                <dash-chart-visitor></dash-chart-visitor>
 
             </Col>
 
@@ -139,7 +136,7 @@
                     <li>
                         <div class="staff_list">
                             <div class="staff_avatar">
-                                <Avatar src="http://www.jq22.com/demo/AdminEx-141217204554/images/photos/user1.png" size="large" />
+                                <!-- <Avatar src="http://www.jq22.com/demo/AdminEx-141217204554/images/photos/user1.png" size="large" /> -->
                             </div>
                             <div class="staff_progress">
                                 <p>
@@ -157,11 +154,11 @@
                     <li>
                         <div class="staff_list">
                             <div class="staff_avatar">
-                                <Avatar src="http://www.jq22.com/demo/AdminEx-141217204554/images/photos/user2.png" size="large" />
+                                <!-- <Avatar src="http://www.jq22.com/demo/AdminEx-141217204554/images/photos/user2.png" size="large" /> -->
                             </div>
                             <div class="staff_progress">
                                 <p>
-                                    <span class="staff_name"> Jhon James </span>
+                                    <span class="staff_name"> Edward Elric </span>
                                     <span> - Project Lead</span>
                                 </p>
                                 <Progress :percent="90" :stroke-width="8" status="success"></Progress>
@@ -174,7 +171,7 @@
                     <li>
                         <div class="staff_list">
                             <div class="staff_avatar">
-                                <Avatar src="http://www.jq22.com/demo/AdminEx-141217204554/images/photos/user3.png" size="large" />
+                                <!-- <Avatar src="http://www.jq22.com/demo/AdminEx-141217204554/images/photos/user3.png" size="large" /> -->
                             </div>
                             <div class="staff_progress">
                                 <p>
@@ -191,12 +188,12 @@
                     <li>
                         <div class="staff_list">
                             <div class="staff_avatar">
-                                <Avatar src="http://www.jq22.com/demo/AdminEx-141217204554/images/photos/user4.png" size="large" />
+                                <!-- <Avatar src="http://www.jq22.com/demo/AdminEx-141217204554/images/photos/user4.png" size="large" /> -->
                             </div>
                             <div class="staff_progress">
                                 <p>
                                     <span class="staff_name"> Jane Doe </span>
-                                    <span> - Marketing</span>
+                                    <span> - Developer</span>
                                 </p>
                                 <Progress :percent="60" :stroke-width="8"></Progress>
                             </div>
@@ -210,7 +207,7 @@
             </Col>
 
         </Row>
-
+<!-- 
         <Row :gutter="16">
             <Col :xs="12" :sm="12" :md="8" :lg="8">
 
@@ -266,7 +263,7 @@
 
             </Col>
 
-        </Row>
+        </Row> -->
 
     </div>
 </template>
